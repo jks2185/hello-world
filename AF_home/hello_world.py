@@ -3,6 +3,8 @@ from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.python_operator import PythonOperator
 
+#Belongs in DAG file, issues uploading
+
 def print_hello():
     return 'Hello World!'
 
