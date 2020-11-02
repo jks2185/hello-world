@@ -1,0 +1,73 @@
+[2020-11-02 16:24:32,717] {scheduler_job.py:154} INFO - Started process (PID=5076) to work on /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:24:32,720] {scheduler_job.py:1589} INFO - Processing file /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py for tasks to queue
+[2020-11-02 16:24:32,720] {logging_mixin.py:112} INFO - [2020-11-02 16:24:32,720] {dagbag.py:417} INFO - Filling up the DagBag from /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:24:32,722] {logging_mixin.py:112} INFO - [2020-11-02 16:24:32,722] {dagbag.py:259} ERROR - Failed to import: /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+Traceback (most recent call last):
+  File "/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/models/dagbag.py", line 256, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/home/jon/anaconda3/envs/tf/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py", line 11
+    start_date=datetime(2017, 3,, 20), catchup=False)
+                                ^
+SyntaxError: invalid syntax
+[2020-11-02 16:24:32,722] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:24:32,735] {scheduler_job.py:162} INFO - Processing /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py took 0.018 seconds
+[2020-11-02 16:25:24,769] {scheduler_job.py:154} INFO - Started process (PID=5303) to work on /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:25:24,772] {scheduler_job.py:1589} INFO - Processing file /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py for tasks to queue
+[2020-11-02 16:25:24,773] {logging_mixin.py:112} INFO - [2020-11-02 16:25:24,773] {dagbag.py:417} INFO - Filling up the DagBag from /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:25:24,778] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:25:24,784] {logging_mixin.py:112} INFO - [2020-11-02 16:25:24,784] {dag.py:1520} INFO - Creating ORM DAG for hello_world
+[2020-11-02 16:25:24,803] {scheduler_job.py:162} INFO - Processing /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py took 0.034 seconds
+[2020-11-02 16:26:16,837] {scheduler_job.py:154} INFO - Started process (PID=5424) to work on /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:26:16,840] {scheduler_job.py:1589} INFO - Processing file /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py for tasks to queue
+[2020-11-02 16:26:16,840] {logging_mixin.py:112} INFO - [2020-11-02 16:26:16,840] {dagbag.py:417} INFO - Filling up the DagBag from /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:26:16,845] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:26:16,863] {scheduler_job.py:162} INFO - Processing /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py took 0.026 seconds
+[2020-11-02 16:27:08,872] {scheduler_job.py:154} INFO - Started process (PID=5545) to work on /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:27:08,875] {scheduler_job.py:1589} INFO - Processing file /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py for tasks to queue
+[2020-11-02 16:27:08,875] {logging_mixin.py:112} INFO - [2020-11-02 16:27:08,875] {dagbag.py:417} INFO - Filling up the DagBag from /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:27:08,882] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:27:08,904] {scheduler_job.py:1305} INFO - Processing hello_world
+[2020-11-02 16:27:08,939] {scheduler_job.py:1315} INFO - Created <DagRun hello_world @ 2020-11-01 12:00:00+00:00: scheduled__2020-11-01T12:00:00+00:00, externally triggered: False>
+[2020-11-02 16:27:08,941] {scheduler_job.py:771} INFO - Examining DAG run <DagRun hello_world @ 2020-11-01 12:00:00+00:00: scheduled__2020-11-01T12:00:00+00:00, externally triggered: False>
+[2020-11-02 16:27:08,947] {scheduler_job.py:771} INFO - Examining DAG run <DagRun hello_world @ 2020-11-02 21:26:55.341442+00:00: manual__2020-11-02T21:26:55.341442+00:00, externally triggered: True>
+[2020-11-02 16:27:08,967] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-11-02 16:27:08,970] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2020-11-01 12:00:00+00:00 [success]> in ORM
+[2020-11-02 16:27:08,972] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2020-11-02 21:26:55.341442+00:00 [success]> in ORM
+[2020-11-02 16:27:08,982] {scheduler_job.py:162} INFO - Processing /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py took 0.110 seconds
+[2020-11-02 16:28:00,930] {scheduler_job.py:154} INFO - Started process (PID=5667) to work on /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:28:00,931] {scheduler_job.py:1589} INFO - Processing file /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py for tasks to queue
+[2020-11-02 16:28:00,932] {logging_mixin.py:112} INFO - [2020-11-02 16:28:00,932] {dagbag.py:417} INFO - Filling up the DagBag from /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:28:00,936] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:28:00,958] {scheduler_job.py:1305} INFO - Processing hello_world
+[2020-11-02 16:28:00,969] {scheduler_job.py:771} INFO - Examining DAG run <DagRun hello_world @ 2020-11-01 12:00:00+00:00: scheduled__2020-11-01T12:00:00+00:00, externally triggered: False>
+[2020-11-02 16:28:00,981] {scheduler_job.py:771} INFO - Examining DAG run <DagRun hello_world @ 2020-11-02 21:26:55.341442+00:00: manual__2020-11-02T21:26:55.341442+00:00, externally triggered: True>
+[2020-11-02 16:28:01,008] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-11-02 16:28:01,011] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: hello_world.hello_task 2020-11-01 12:00:00+00:00 [scheduled]> in ORM
+[2020-11-02 16:28:01,013] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: hello_world.hello_task 2020-11-02 21:26:55.341442+00:00 [scheduled]> in ORM
+[2020-11-02 16:28:01,023] {scheduler_job.py:162} INFO - Processing /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py took 0.094 seconds
+[2020-11-02 16:29:04,690] {scheduler_job.py:154} INFO - Started process (PID=5821) to work on /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:29:04,693] {scheduler_job.py:1589} INFO - Processing file /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py for tasks to queue
+[2020-11-02 16:29:04,693] {logging_mixin.py:112} INFO - [2020-11-02 16:29:04,693] {dagbag.py:417} INFO - Filling up the DagBag from /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:29:04,701] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:29:04,722] {scheduler_job.py:1305} INFO - Processing hello_world
+[2020-11-02 16:29:04,733] {scheduler_job.py:771} INFO - Examining DAG run <DagRun hello_world @ 2020-11-01 12:00:00+00:00: scheduled__2020-11-01T12:00:00+00:00, externally triggered: False>
+[2020-11-02 16:29:04,739] {logging_mixin.py:112} INFO - [2020-11-02 16:29:04,739] {dagrun.py:320} INFO - Marking run <DagRun hello_world @ 2020-11-01 12:00:00+00:00: scheduled__2020-11-01T12:00:00+00:00, externally triggered: False> successful
+[2020-11-02 16:29:04,746] {scheduler_job.py:771} INFO - Examining DAG run <DagRun hello_world @ 2020-11-02 21:26:55.341442+00:00: manual__2020-11-02T21:26:55.341442+00:00, externally triggered: True>
+[2020-11-02 16:29:04,752] {logging_mixin.py:112} INFO - [2020-11-02 16:29:04,752] {dagrun.py:320} INFO - Marking run <DagRun hello_world @ 2020-11-02 21:26:55.341442+00:00: manual__2020-11-02T21:26:55.341442+00:00, externally triggered: True> successful
+[2020-11-02 16:29:04,759] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-11-02 16:29:04,762] {scheduler_job.py:162} INFO - Processing /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py took 0.072 seconds
+[2020-11-02 16:29:56,748] {scheduler_job.py:154} INFO - Started process (PID=5960) to work on /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:29:56,750] {scheduler_job.py:1589} INFO - Processing file /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py for tasks to queue
+[2020-11-02 16:29:56,751] {logging_mixin.py:112} INFO - [2020-11-02 16:29:56,751] {dagbag.py:417} INFO - Filling up the DagBag from /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:29:56,755] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py
+[2020-11-02 16:29:56,775] {scheduler_job.py:1305} INFO - Processing hello_world
+[2020-11-02 16:29:56,788] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2020-11-02 16:29:56,789] {scheduler_job.py:162} INFO - Processing /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py took 0.042 seconds

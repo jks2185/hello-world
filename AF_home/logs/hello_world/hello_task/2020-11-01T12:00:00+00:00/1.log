@@ -1,0 +1,15 @@
+[2020-11-02 16:28:04,061] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: hello_world.hello_task 2020-11-01T12:00:00+00:00 [queued]>
+[2020-11-02 16:28:04,088] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: hello_world.hello_task 2020-11-01T12:00:00+00:00 [queued]>
+[2020-11-02 16:28:04,088] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-02 16:28:04,088] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2020-11-02 16:28:04,088] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-02 16:28:04,098] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): hello_task> on 2020-11-01T12:00:00+00:00
+[2020-11-02 16:28:04,100] {standard_task_runner.py:54} INFO - Started process 5680 to run task
+[2020-11-02 16:28:04,135] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'hello_world', 'hello_task', '2020-11-01T12:00:00+00:00', '--job_id', '2', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER//home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/hello_world.py', '--cfg_path', '/tmp/tmpoyuyzw6d']
+[2020-11-02 16:28:04,136] {standard_task_runner.py:78} INFO - Job 2: Subtask hello_task
+[2020-11-02 16:28:04,167] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: hello_world.hello_task 2020-11-01T12:00:00+00:00 [running]> JonTop
+[2020-11-02 16:28:04,184] {python_operator.py:114} INFO - Done. Returned value was: Hello World!
+[2020-11-02 16:28:04,200] {taskinstance.py:1057} INFO - Marking task as SUCCESS.dag_id=hello_world, task_id=hello_task, execution_date=20201101T120000, start_date=20201102T212804, end_date=20201102T212804
+[2020-11-02 16:28:09,049] {local_task_job.py:102} INFO - Task exited with return code 0

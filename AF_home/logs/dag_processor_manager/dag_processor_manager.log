@@ -1,0 +1,498 @@
+[2020-11-02 16:24:04,689] {dag_processing.py:839} INFO - Processing files using up to 1 processes at a time 
+[2020-11-02 16:24:04,689] {dag_processing.py:840} INFO - Process each file at most once every 0 seconds
+[2020-11-02 16:24:04,689] {dag_processing.py:841} INFO - Checking for new files in /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags every 300 seconds
+[2020-11-02 16:24:04,690] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:24:04,690] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:19:04.690720+00:00
+[2020-11-02 16:24:04,809] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py                                                              0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2020-11-02T21:24:04
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+================================================================================
+[2020-11-02 16:24:16,690] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:24:16,691] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:19:16.691524+00:00
+[2020-11-02 16:24:28,702] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:24:28,703] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:19:28.703001+00:00
+[2020-11-02 16:24:34,824] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py                                                              0           1  0.10s           2020-11-02T21:24:32
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2020-11-02T21:24:08
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2020-11-02T21:24:10
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2020-11-02T21:24:14
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2020-11-02T21:24:12
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2020-11-02T21:24:18
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2020-11-02T21:24:30
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2020-11-02T21:24:28
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2020-11-02T21:24:22
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2020-11-02T21:24:20
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2020-11-02T21:24:34
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2020-11-02T21:24:04
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2020-11-02T21:24:16
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2020-11-02T21:24:06
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2020-11-02T21:24:26
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2020-11-02T21:24:24
+================================================================================
+[2020-11-02 16:24:40,714] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:24:40,715] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:19:40.715493+00:00
+[2020-11-02 16:24:52,726] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:24:52,726] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:19:52.726506+00:00
+[2020-11-02 16:25:04,738] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:25:04,739] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:20:04.739403+00:00
+[2020-11-02 16:25:04,870] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py                                                              0           1  0.10s           2020-11-02T21:24:32
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2020-11-02T21:25:00
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2020-11-02T21:25:02
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2020-11-02T21:24:48
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2020-11-02T21:24:52
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2020-11-02T21:24:14
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2020-11-02T21:24:44
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2020-11-02T21:25:04
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2020-11-02T21:24:18
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2020-11-02T21:24:38
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2020-11-02T21:24:30
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2020-11-02T21:24:36
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2020-11-02T21:24:28
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2020-11-02T21:24:22
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2020-11-02T21:24:20
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2020-11-02T21:24:34
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2020-11-02T21:24:56
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2020-11-02T21:24:40
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.11s           2020-11-02T21:24:42
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2020-11-02T21:24:16
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2020-11-02T21:24:58
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2020-11-02T21:24:26
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2020-11-02T21:24:50
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2020-11-02T21:24:54
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2020-11-02T21:24:46
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2020-11-02T21:24:24
+================================================================================
+[2020-11-02 16:25:16,750] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:25:16,751] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:20:16.751497+00:00
+[2020-11-02 16:25:28,762] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:25:28,763] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:20:28.763290+00:00
+[2020-11-02 16:25:34,879] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py                                                              0           0  0.10s           2020-11-02T21:25:24
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2020-11-02T21:25:00
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2020-11-02T21:25:02
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2020-11-02T21:24:48
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2020-11-02T21:24:52
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2020-11-02T21:25:06
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2020-11-02T21:24:44
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2020-11-02T21:25:04
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2020-11-02T21:25:10
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2020-11-02T21:25:30
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2020-11-02T21:25:22
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2020-11-02T21:25:28
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2020-11-02T21:25:20
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2020-11-02T21:25:14
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2020-11-02T21:25:12
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2020-11-02T21:25:26
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2020-11-02T21:24:56
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2020-11-02T21:25:32
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.11s           2020-11-02T21:25:34
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2020-11-02T21:25:08
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2020-11-02T21:24:58
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2020-11-02T21:25:18
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2020-11-02T21:24:50
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2020-11-02T21:24:54
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2020-11-02T21:24:46
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2020-11-02T21:25:16
+================================================================================
+[2020-11-02 16:25:40,774] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:25:40,775] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:20:40.775352+00:00
+[2020-11-02 16:25:52,786] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:25:52,786] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:20:52.786854+00:00
+[2020-11-02 16:26:04,798] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:26:04,798] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:21:04.798624+00:00
+[2020-11-02 16:26:04,923] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py                                                              0           0  0.10s           2020-11-02T21:25:24
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2020-11-02T21:25:52
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2020-11-02T21:25:54
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2020-11-02T21:25:40
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2020-11-02T21:25:44
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2020-11-02T21:25:58
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2020-11-02T21:25:36
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2020-11-02T21:25:56
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2020-11-02T21:26:02
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2020-11-02T21:25:30
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2020-11-02T21:25:22
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2020-11-02T21:25:28
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2020-11-02T21:25:20
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2020-11-02T21:25:14
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2020-11-02T21:26:04
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2020-11-02T21:25:26
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2020-11-02T21:25:48
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2020-11-02T21:25:32
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.11s           2020-11-02T21:25:34
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2020-11-02T21:26:00
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2020-11-02T21:25:50
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2020-11-02T21:25:18
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2020-11-02T21:25:42
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.21s           2020-11-02T21:25:46
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2020-11-02T21:25:38
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2020-11-02T21:25:16
+================================================================================
+[2020-11-02 16:26:16,809] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:26:16,810] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:21:16.810561+00:00
+[2020-11-02 16:26:28,822] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:26:28,823] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:21:28.823143+00:00
+[2020-11-02 16:26:34,942] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py                                                              0           0  0.10s           2020-11-02T21:26:16
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2020-11-02T21:25:52
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2020-11-02T21:25:54
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2020-11-02T21:26:32
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2020-11-02T21:25:44
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2020-11-02T21:25:58
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2020-11-02T21:26:28
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2020-11-02T21:25:56
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2020-11-02T21:26:02
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2020-11-02T21:26:22
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2020-11-02T21:26:14
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2020-11-02T21:26:20
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2020-11-02T21:26:12
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2020-11-02T21:26:06
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2020-11-02T21:26:04
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2020-11-02T21:26:18
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2020-11-02T21:25:48
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2020-11-02T21:26:24
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2020-11-02T21:26:26
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2020-11-02T21:26:00
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2020-11-02T21:25:50
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2020-11-02T21:26:10
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2020-11-02T21:26:34
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.21s           2020-11-02T21:25:46
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2020-11-02T21:26:30
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2020-11-02T21:26:08
+================================================================================
+[2020-11-02 16:26:40,834] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:26:40,835] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:21:40.835487+00:00
+[2020-11-02 16:26:52,846] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:26:52,847] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:21:52.847075+00:00
+[2020-11-02 16:27:04,858] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:27:04,858] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:22:04.858665+00:00
+[2020-11-02 16:27:04,978] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py                                                              0           0  0.10s           2020-11-02T21:26:16
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2020-11-02T21:26:44
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2020-11-02T21:26:46
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2020-11-02T21:26:32
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2020-11-02T21:26:36
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2020-11-02T21:26:50
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2020-11-02T21:26:28
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2020-11-02T21:26:48
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2020-11-02T21:26:54
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2020-11-02T21:26:22
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2020-11-02T21:26:14
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2020-11-02T21:26:20
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2020-11-02T21:27:04
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2020-11-02T21:26:58
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2020-11-02T21:26:56
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2020-11-02T21:26:18
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2020-11-02T21:26:40
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2020-11-02T21:26:24
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2020-11-02T21:26:26
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2020-11-02T21:26:52
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2020-11-02T21:26:42
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2020-11-02T21:27:02
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2020-11-02T21:26:34
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2020-11-02T21:26:38
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2020-11-02T21:26:30
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2020-11-02T21:27:00
+================================================================================
+[2020-11-02 16:27:16,871] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:27:16,872] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:22:16.872308+00:00
+[2020-11-02 16:27:28,884] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:27:28,885] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:22:28.885142+00:00
+[2020-11-02 16:27:35,002] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2020-11-02T21:26:44
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2020-11-02T21:26:46
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2020-11-02T21:27:24
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2020-11-02T21:27:29
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2020-11-02T21:26:50
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2020-11-02T21:27:20
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2020-11-02T21:26:48
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2020-11-02T21:26:54
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2020-11-02T21:27:14
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2020-11-02T21:27:06
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2020-11-02T21:27:12
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2020-11-02T21:27:04
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2020-11-02T21:26:58
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2020-11-02T21:26:56
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2020-11-02T21:27:10
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2020-11-02T21:27:32
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2020-11-02T21:27:16
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2020-11-02T21:27:18
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2020-11-02T21:26:52
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2020-11-02T21:27:34
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2020-11-02T21:27:02
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2020-11-02T21:27:26
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.11s           2020-11-02T21:27:30
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2020-11-02T21:27:22
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2020-11-02T21:27:00
+/home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py                                                              1           0  0.20s           2020-11-02T21:27:09
+================================================================================
+[2020-11-02 16:27:40,896] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:27:40,897] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:22:40.897111+00:00
+[2020-11-02 16:27:52,907] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:27:52,908] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:22:52.907972+00:00
+[2020-11-02 16:28:16,629] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:28:16,630] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:23:16.630599+00:00
+[2020-11-02 16:28:16,754] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2020-11-02T21:27:36
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2020-11-02T21:27:39
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2020-11-02T21:27:24
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2020-11-02T21:27:29
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2020-11-02T21:27:43
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2020-11-02T21:27:20
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2020-11-02T21:27:41
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2020-11-02T21:27:47
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2020-11-02T21:27:14
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2020-11-02T21:27:59
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2020-11-02T21:28:16
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2020-11-02T21:27:57
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2020-11-02T21:27:51
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2020-11-02T21:27:49
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2020-11-02T21:28:03
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2020-11-02T21:27:32
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2020-11-02T21:27:16
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2020-11-02T21:27:18
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2020-11-02T21:27:45
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2020-11-02T21:27:34
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2020-11-02T21:27:55
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2020-11-02T21:27:26
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.11s           2020-11-02T21:27:30
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2020-11-02T21:27:22
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2020-11-02T21:27:53
+/home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py                                                              1           0  0.21s           2020-11-02T21:28:01
+================================================================================
+[2020-11-02 16:28:28,642] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:28:28,643] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:23:28.643301+00:00
+[2020-11-02 16:28:38,651] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:28:38,652] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:23:38.652228+00:00
+[2020-11-02 16:28:46,779] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2020-11-02T21:28:40
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2020-11-02T21:28:42
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2020-11-02T21:28:28
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2020-11-02T21:28:32
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2020-11-02T21:28:46
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2020-11-02T21:28:24
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.11s           2020-11-02T21:28:44
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2020-11-02T21:27:47
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2020-11-02T21:28:18
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2020-11-02T21:27:59
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.10s           2020-11-02T21:28:16
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2020-11-02T21:27:57
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2020-11-02T21:27:51
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2020-11-02T21:27:49
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2020-11-02T21:28:03
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2020-11-02T21:28:36
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2020-11-02T21:28:20
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2020-11-02T21:28:22
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.10s           2020-11-02T21:27:45
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2020-11-02T21:28:38
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2020-11-02T21:27:55
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2020-11-02T21:28:30
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.11s           2020-11-02T21:28:34
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2020-11-02T21:28:26
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2020-11-02T21:27:53
+/home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py                                                              1           0  0.21s           2020-11-02T21:28:01
+================================================================================
+[2020-11-02 16:28:50,665] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:28:50,666] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:23:50.666684+00:00
+[2020-11-02 16:29:02,678] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:29:02,678] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:24:02.678944+00:00
+[2020-11-02 16:29:06,682] {dag_processing.py:939} INFO - Searching for files in /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags
+[2020-11-02 16:29:06,692] {dag_processing.py:942} INFO - There are 26 files in /home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags
+[2020-11-02 16:29:14,690] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:29:14,690] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:24:14.690775+00:00
+[2020-11-02 16:29:16,808] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2020-11-02T21:28:40
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2020-11-02T21:28:42
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2020-11-02T21:28:28
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2020-11-02T21:28:32
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2020-11-02T21:28:46
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2020-11-02T21:29:16
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.11s           2020-11-02T21:28:44
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.10s           2020-11-02T21:28:50
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2020-11-02T21:29:10
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2020-11-02T21:29:02
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2020-11-02T21:29:08
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2020-11-02T21:29:00
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2020-11-02T21:28:54
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.10s           2020-11-02T21:28:52
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2020-11-02T21:29:06
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2020-11-02T21:28:36
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2020-11-02T21:29:12
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2020-11-02T21:29:14
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2020-11-02T21:28:48
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.10s           2020-11-02T21:28:38
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2020-11-02T21:28:58
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2020-11-02T21:28:30
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.11s           2020-11-02T21:28:34
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2020-11-02T21:28:26
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2020-11-02T21:28:56
+/home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py                                                              1           0  0.10s           2020-11-02T21:29:04
+================================================================================
+[2020-11-02 16:29:26,703] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:29:26,704] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:24:26.704036+00:00
+[2020-11-02 16:29:38,716] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:29:38,717] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:24:38.717583+00:00
+[2020-11-02 16:29:46,835] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2020-11-02T21:29:32
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2020-11-02T21:29:34
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2020-11-02T21:29:20
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2020-11-02T21:29:24
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2020-11-02T21:29:38
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2020-11-02T21:29:16
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2020-11-02T21:29:36
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2020-11-02T21:29:42
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2020-11-02T21:29:10
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2020-11-02T21:29:02
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2020-11-02T21:29:08
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2020-11-02T21:29:00
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2020-11-02T21:29:46
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2020-11-02T21:29:44
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.10s           2020-11-02T21:29:06
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2020-11-02T21:29:28
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2020-11-02T21:29:12
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2020-11-02T21:29:14
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2020-11-02T21:29:40
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2020-11-02T21:29:30
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.11s           2020-11-02T21:28:58
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2020-11-02T21:29:22
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2020-11-02T21:29:26
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2020-11-02T21:29:18
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2020-11-02T21:28:56
+/home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py                                                              1           0  0.10s           2020-11-02T21:29:04
+================================================================================
+[2020-11-02 16:29:50,728] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:29:50,728] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:24:50.728685+00:00
+[2020-11-02 16:30:02,740] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:30:02,740] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:25:02.740450+00:00
+[2020-11-02 16:30:14,751] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:30:14,752] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:25:14.752347+00:00
+[2020-11-02 16:30:16,868] {dag_processing.py:1064} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.10s           2020-11-02T21:29:32
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.10s           2020-11-02T21:29:34
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.10s           2020-11-02T21:30:12
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.10s           2020-11-02T21:30:16
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.10s           2020-11-02T21:29:38
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.10s           2020-11-02T21:30:08
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2020-11-02T21:29:36
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2020-11-02T21:29:42
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.10s           2020-11-02T21:30:02
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.11s           2020-11-02T21:29:54
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2020-11-02T21:30:00
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.10s           2020-11-02T21:29:52
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.10s           2020-11-02T21:29:46
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.11s           2020-11-02T21:29:44
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.11s           2020-11-02T21:29:58
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.10s           2020-11-02T21:29:28
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2020-11-02T21:30:04
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.10s           2020-11-02T21:30:06
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2020-11-02T21:29:40
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2020-11-02T21:29:30
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.10s           2020-11-02T21:29:50
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.10s           2020-11-02T21:30:14
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.10s           2020-11-02T21:29:26
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.10s           2020-11-02T21:30:10
+/home/jon/anaconda3/envs/tf/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2020-11-02T21:29:48
+/home/jon/Desktop/Python/AirflowTutorial/pwd/AF_home/pwd/AF_home/dags/hello_world.py                                                              1           0  0.11s           2020-11-02T21:29:56
+================================================================================
+[2020-11-02 16:30:26,763] {dag_processing.py:1312} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-11-02 16:30:26,764] {dag_processing.py:1316} INFO - Failing jobs without heartbeat after 2020-11-02 21:25:26.764526+00:00
